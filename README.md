@@ -1,5 +1,5 @@
 # description
-Training Vaadin Flow Springboot integration
+Training Vaadin Flow Springboot integration concepts
 
 # frameworks
 - Spring Boot 2.4.5
@@ -11,8 +11,8 @@ Training Vaadin Flow Springboot integration
 # compile in production mode
 ./build-production.sh
 
-# create production docker image
+# create docker image
 ./docker-compile-image.sh
 
-# start production docker container
+# start docker container
 ./docker-start-container.sh
