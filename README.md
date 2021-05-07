@@ -15,4 +15,4 @@ Training Vaadin Flow Springboot integration concepts
 ./docker-compile-image.sh
 
 # start docker container
-./docker-start-container.sh
+./docker-start-container.sh 
