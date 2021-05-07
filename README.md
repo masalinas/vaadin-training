@@ -7,3 +7,12 @@ Training Vaadin Flow Springboot integration
 - Spring Testbech 14.5.4
 - Vaadin 14 Flow
 - Vaadin addon prism-element 2.0.0-beta2
+
+# compile in production mode
+./build-production.sh
+
+# create production docker image
+./docker-compile-image.sh
+
+# start production docker container
+./docker-start-container.sh
