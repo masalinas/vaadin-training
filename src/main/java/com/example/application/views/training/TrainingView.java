@@ -23,6 +23,7 @@ import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 
 import com.github.appreciated.prism.element.Language;
 import com.github.appreciated.prism.element.PrismHighlighter;
+
 import com.example.application.backend.mocks.Department;
 import com.example.application.views.main.MainView;
 
