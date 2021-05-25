@@ -13,7 +13,7 @@ import com.vaadin.flow.router.RouteAlias;
 
 @Route(value = "login")
 @RouteAlias(value = "")
-@PageTitle("Login | Vaadin Training")
+@PageTitle("Stock Manager | Login")
 @CssImport("./views/login/login-view.css")
 public class LoginView extends VerticalLayout implements BeforeEnterObserver {
 	LoginForm loginForm = new LoginForm();
@@ -24,7 +24,7 @@ public class LoginView extends VerticalLayout implements BeforeEnterObserver {
 		    
 		    if (isAuthenticated) {
 		    	getUI().ifPresent(ui ->
-		           ui.navigate("hello"));
+		           ui.navigate("dashboard"));
 		    } else {
 		    	loginForm.setError(true);
 		    }
